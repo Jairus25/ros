@@ -1,0 +1,23 @@
+UCI Gas Sensor Array Drift Dataset
+Random 80/20 stratified holdout evaluation
+
+Records: 13910
+Features: 128
+Classes: [1, 2, 3, 4, 5, 6]
+Accuracy: 0.9953
+
+              precision    recall  f1-score   support
+
+           1       1.00      0.99      1.00       513
+           2       0.99      1.00      0.99       585
+           3       1.00      0.99      1.00       328
+           4       1.00      0.99      0.99       387
+           5       0.99      1.00      1.00       602
+           6       0.99      1.00      1.00       367
+
+    accuracy                           1.00      2782
+   macro avg       1.00      0.99      1.00      2782
+weighted avg       1.00      1.00      1.00      2782
+
+
+Limitations: This is gas-class classification, not hazard-concentration detection. Randomly split records may share batch-related characteristics between train and test.

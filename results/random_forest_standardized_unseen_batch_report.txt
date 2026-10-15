@@ -1,0 +1,28 @@
+Model: Random Forest - standardized
+Training batches: 1-8
+Testing batches: 9-10
+
+Accuracy: 0.634644
+Macro F1: 0.633037
+
+Classification report:
+              precision    recall  f1-score   support
+
+           1     0.7094    0.4357    0.5398       661
+           2     0.5567    0.6443    0.5973       655
+           3     0.7882    0.6486    0.7116       700
+           4     0.4923    0.7126    0.5823       675
+           5     0.7291    0.7979    0.7620       678
+           6     0.6498    0.5663    0.6052       701
+
+    accuracy                         0.6346      4070
+   macro avg     0.6542    0.6342    0.6330      4070
+weighted avg     0.6554    0.6346    0.6339      4070
+
+Confusion matrix:
+[[288   0   0 192 122  59]
+ [ 11 422  81  75  64   2]
+ [ 20 225 454   0   0   1]
+ [ 65   1   0 481   5 123]
+ [ 11  79  12   6 541  29]
+ [ 11  31  29 223  10 397]]

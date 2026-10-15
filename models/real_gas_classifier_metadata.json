@@ -1,0 +1,18 @@
+{
+  "dataset": "UCI Gas Sensor Array Drift Dataset",
+  "target": "original gas-class label",
+  "feature_count": 128,
+  "class_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "training_records": 11128,
+  "test_records": 2782,
+  "random_split_accuracy": 0.9953271028037384,
+  "split_random_state": 42,
+  "warning": "Gas-class classification only. This model does not predict safe/dangerous concentration or replace calibrated safety sensors."
+}

@@ -1,0 +1,4 @@
+model,unseen_batch_accuracy,unseen_batch_macro_f1
+SVM - standardized,0.6916461916461917,0.6971055522629337
+Random Forest - raw,0.6346437346437347,0.6330366580505102
+Random Forest - standardized,0.6346437346437347,0.6330366580505102

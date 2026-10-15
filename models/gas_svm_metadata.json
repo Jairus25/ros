@@ -1,0 +1,27 @@
+{
+    "model_name": "Standardized SVM",
+    "algorithm": "Support Vector Classifier",
+    "kernel": "rbf",
+    "training_batches": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "feature_count": 128,
+    "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "dataset": "UCI Gas Sensor Array Drift Dataset",
+    "purpose": "Experimental gas-class classification",
+    "safety_status": "Not validated for hazardous concentration detection"
+}
